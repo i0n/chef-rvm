@@ -20,8 +20,8 @@
 #
 
 # ruby that will get installed and set to `rvm use default`.
-default['rvm']['default_ruby']      = "ruby-2.1.1-p76"
-default['rvm']['user_default_ruby'] = "ruby-2.1.1-p76"
+default['rvm']['default_ruby']      = "ruby-2.1.1"
+default['rvm']['user_default_ruby'] = "ruby-2.1.1"
 
 # list of additional rubies that will be installed
 default['rvm']['rubies']      = []
